@@ -2,7 +2,7 @@
   "name": "redux-action-log",
   "version": "2.0.1",
   "description": "Redux store enhancer for recording action history.",
-  "main": "js/index.js",
+  "main": "src/index.js",
   "scripts": {
     "prepare": "babel -s inline -d js/ src/ && flow-copy-source -v src js",
     "test": "npm run lint && npm run flow_check && mocha",
